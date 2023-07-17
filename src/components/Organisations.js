@@ -6,14 +6,14 @@ const Organisations = () => {
   return (
     <div>
           <div className="flex justify-between">
-              <div className="m-10 mr-20 w-1/3">
+              <div className="my-3 ml-2 w-1/3">
                   <img
                       src={iiitd}
                       alt="Left Image"
                       className="w-full h-auto"
                   />
               </div>
-              <div className="m-10 w-1/4">
+              <div className="my-4 mr-2 w-1/4">
                   <img
                       src= {dataorg}
                       alt="Right Image"

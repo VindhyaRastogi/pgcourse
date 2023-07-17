@@ -1,5 +1,6 @@
 import React from 'react'
 import artpark from "../assets/artpark_logo.png"
+import jpal from "../assets/jpal_logo.png"
 export default function InternshipPartners() {
     return (
         <div>
@@ -10,14 +11,14 @@ export default function InternshipPartners() {
                         <img
                             src={artpark}
                             alt="Left Image"
-                            className="w-full h-auto"
+                           
                         />
                     </div>
                     <div className="m-10 w-1/2">
                         <img
-                            src={artpark}
-                            alt="Left Image"
-                            className="w-full h-auto"
+                            src={jpal}
+                            alt="Right Image"
+                         
                         />
                     </div>
                 </div>
