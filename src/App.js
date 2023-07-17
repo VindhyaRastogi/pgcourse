@@ -7,6 +7,8 @@ import Home from './components/Home.js';
 import ApplyNow from './components/ApplyNow.js';
 import Faculty from './components/Faculty.js';
 import About from './components/About.js';
+import Brochure from './components/Brochure.js';
+import Admission from './components/Admission.js';
 
 
 const App = () => {
@@ -28,12 +30,12 @@ const App = () => {
       <section id="internship_partners" className="flex justify-center bg-white">
         <InternshipPartners />
       </section>
-      <section id="contact" className="h-screen bg-gray-500">
-        <h1 className="text-3xl font-bold text-gray-900">Contact</h1>
+      <section id="admission" className="h-screen bg-gray-300">
+        <Admission />
       </section>
 
       <ApplyNow />
-
+      <Brochure />
     </div>
   );
 };

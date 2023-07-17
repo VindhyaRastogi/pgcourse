@@ -48,12 +48,12 @@ const Navbar = () => {
                     </li>
                     <li className="cursor-pointer hover:text-gray-900">
                         <Link
-                            to="contact"
+                            to="admission"
                             smooth={true}
                             duration={500}
                             className="cursor-pointer"
                         >
-                            Contact
+                            Admission
                         </Link>
                     </li>
                 </ul>
