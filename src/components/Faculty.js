@@ -33,7 +33,7 @@ export default function Faculty() {
 
     return (
         <div>
-            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">World-Renowned Faculty</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">IIIT-Delhi Faculty</h1>
 
             <div className="flex flex-wrap justify-center">
                 {cardsData.map((card) => (

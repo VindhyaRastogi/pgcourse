@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="container mx-auto flex items-center justify-between px-4 py-2">
                
                 <ul className="flex space-x-4">
-                    <li className="cursor-pointer hover:text-gray-900">
+                    <li className="cursor-pointer text-xl hover:text-gray-900">
                         <Link
                             to="home"
                             smooth={true}
@@ -16,7 +16,7 @@ const Navbar = () => {
                             Home
                         </Link>
                     </li>
-                    <li className="cursor-pointer hover:text-gray-900">
+                    <li className="cursor-pointer text-xl hover:text-gray-900">
                         <Link
                             to="about"
                             smooth={true}
@@ -26,7 +26,7 @@ const Navbar = () => {
                             About
                         </Link>
                     </li>
-                    <li className="cursor-pointer hover:text-gray-900">
+                    <li className="cursor-pointer text-xl hover:text-gray-900">
                         <Link
                             to="faculty"
                             smooth={true}
@@ -36,7 +36,7 @@ const Navbar = () => {
                             Faculty
                         </Link>
                     </li>
-                    <li className="cursor-pointer hover:text-gray-900">
+                    <li className="cursor-pointer text-xl hover:text-gray-900">
                         <Link
                             to="internship_partners"
                             smooth={true}
@@ -46,7 +46,7 @@ const Navbar = () => {
                             Internship Partners
                         </Link>
                     </li>
-                    <li className="cursor-pointer hover:text-gray-900">
+                    <li className="cursor-pointer text-xl hover:text-gray-900">
                         <Link
                             to="admission"
                             smooth={true}
