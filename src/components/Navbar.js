@@ -4,24 +4,22 @@ import { useState } from 'react';
 const Navbar = (props) => {
 
     const changeToHome = () => {
-        console.log("FSDafa")
         props.togglePage("home")
     }
     const changeToAbout = () => {
-        console.log("FSDafa")
         props.togglePage("about")
     }
     const changeToFaculty = () => {
-        console.log("FSDafa")
         props.togglePage("faculty")
     }
     const changeToPartners = () => {
-        console.log("FSDafa")
         props.togglePage("partners")
     }
     const changeToAdmission = () => {
-        console.log("FSDafa")
         props.togglePage("admission")
+    }
+    const changeToFees = () => {
+        props.togglePage("fees")
     }
     const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -152,6 +150,17 @@ const Navbar = (props) => {
                                 Admission
                             </Link>
                         </li>
+                        <li className="cursor-pointer text-xl hover:text-gray-900" >
+                            <Link
+                                to="fees"
+                                smooth={true}
+                                duration={500}
+                                className="cursor-pointer"
+                                onClick={changeToFees}
+                            >
+                                Fees
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="block sm:hidden">
@@ -227,6 +236,17 @@ const Navbar = (props) => {
                             onClick={changeToAdmission}
                         >
                             Admission
+                        </Link>
+                    </li>
+                    <li className="cursor-pointer text-xl hover:text-gray-900" >
+                        <Link
+                            to="fees"
+                            smooth={true}
+                            duration={500}
+                            className="cursor-pointer"
+                            onClick={changeToFees}
+                        >
+                            Fees
                         </Link>
                     </li>
                 </ul>

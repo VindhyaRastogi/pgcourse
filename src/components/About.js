@@ -7,97 +7,97 @@ export default function
     const courseData = [
         {
 
-            title: 'Course 1: Introduction and working with Data',
-            topics: ['Overview of the Data Science Approaches',
-                'Types and sources of Data',
-                'Introduction to R, Python and Excel',
+            title: 'Module 1: Introduction and working with data',
+            topics: ['Overview of the data science approaches',
+                'Types and sources of data',
+                'Introduction to R, python and excel',
                 'Data exploration',
                 'Data cleaning, remediation and harmonization'
             ],
         },
         {
 
-            title: 'Course 2: Inferential Statistics and Comparative Data Sciences',
+            title: 'Module 2: Inferential statistics and comparative data sciences',
             topics: [
-                'Concept of Random Variables',
-                'Measures of Centrality and Deviation',
-                'Probability Distributions and Sampling Distributions',
-                'Rank Statistics',
-                'Parametric and Non - parametric Tests',
+                'Concept of random variables',
+                'Measures of centrality and deviation',
+                'Probability distributions and sampling distributions',
+                'Rank statistics',
+                'Parametric and non - parametric tests',
             ],
         },
         {
 
-            title: 'Course 3: Modelling and Machine Learning',
+            title: 'Module 3: Modelling and machine learning',
             topics: [
-                'Introductory Linear Algebra',
-                'Supervised and Unsupervised learning and Clustering',
+                'Introductory linear algebra',
+                'Supervised and unsupervised learning and clustering',
                 'Regression models and feature selection',
-                'Dimensionality Reduction Approaches',
-                'Different kinds of Machine Learning Approaches',
+                'Dimensionality reduction approaches',
+                'Different kinds of machine learning approaches',
 
             ]
         },
         {
 
-            title: 'Course 4: Data Visualization',
+            title: 'Module 4: Data visualization',
             topics: [
-                'Advanced Data Visualization Schemes for continuous and categorical data',
+                'Advanced data visualization schemes for continuous and categorical data',
                 'Data visualization packages like ggplot and seaborn for improved data visualization',
                 'Interactive data visualization',
                 'Three- dimensional data visualization',
-                'Geospatial Data Visualization',
+                'Geospatial data visualization',
 
             ]
 
         },
         {
-            title: "Course 5: Advanced Data Sciences",
+            title: "Module 5: Advanced data sciences",
             topics: [
-                'Introduction to Artificial Intelligence and Neural Networks',
-                'Different types of Neural Networks',
-                'Deep Neural Networks',
-                'Applications of AI and Deep Neural Networks',
+                'Introduction to artificial intelligence and neural networks',
+                'Different types of neural networks',
+                'Deep neural networks',
+                'Applications of AI and deep neural networks',
                 'Interpretability',
-                'Nature Language Processing',
-                'Language Models',
+                'Nature language processing',
+                'Language models',
 
             ]
 
         },
         {
-            title: "Course 6: Data Science in Health Care",
+            title: "Module 6: Data science in health care",
             topics: [
-                'Introduction to Data Ethics',
+                'Introduction to data ethics',
                 'Real life case studies on data driven health sciences with social impact'
 
             ]
 
         },
         {
-            title: "Course 7: Data Science in Climate Emergency",
+            title: "Module 7: Data science in climate emergency",
             topics: [
-                'Climate Science and Types',
+                'Climate science and types',
                 'Real life case studies on data driven climate sciences with social impact'
 
             ]
 
         },
         {
-            title: "Course 8: Data Science: Intersectionality and Representativeness of Data",
+            title: "Module 8: Data science: Intersectionality and representativeness of data",
             topics: [
                 'Intersectionality and social datasets',
-                'Data gathering and Representativeness of Data',
-                'Intersectionality and Representativeness in Datasets and its impact on data driven strategies',
-                'Case studies about Representativeness and intersectionality in datasets',
-                'Citizen Data Science',
+                'Data gathering and representativeness of data',
+                'Intersectionality and representativeness in datasets and its impact on data driven strategies',
+                'Case studies about representativeness and intersectionality in datasets',
+                'Citizen data science',
 
             ]
 
         },
         {
-            title: "Course 9: Future Perspectives",
-            topics: ["Futuristic developments in Data Science: chatGPT etc"]
+            title: "Module 9: Future perspectives",
+            topics: ["Futuristic developments in data science: chatGPT etc"]
 
         },
     ]
@@ -106,7 +106,7 @@ export default function
     return (
         <div>
             
-            <h1 className="text-3xl font-bold text-gray-900 text-center my-5 mt-10">Detailed Structure</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center my-5 mt-10">Detailed course structure</h1>
 
 
             <div className="keyFeatures">

@@ -11,6 +11,7 @@ import About from './components/About.js';
 import Brochure from './components/Brochure.js';
 import Admission from './components/Admission.js';
 import ContactUs from './components/ContactUs.js';
+import Fees from './components/Fees.js';
 
 
 const App = () => {
@@ -40,6 +41,12 @@ const App = () => {
       case 'admission':
         return <section id="admission" className="w-screen h-screen bg-gray-300">
           <Admission />
+
+        </section>;
+      case 'fees':
+        return <section id="fees" className="w-screen h-screen bg-gray-300">
+       
+          <Fees />
         </section>;
       default:
         return <Home />;

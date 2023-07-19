@@ -116,8 +116,8 @@ export default function Faculty() {
 
 
     return (
-        <div>
-            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">IIIT-Delhi Faculty Managing the Program</h1>
+        <div className="container">
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Program Coordinators</h1>
 
             <div className="flex flex-wrap justify-center">
                 {cardsData.map((card) => (
@@ -130,8 +130,44 @@ export default function Faculty() {
                     />
                 ))}
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Teaching Faculty</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Expertise in computer sciences</h1>
+
             <div className="flex flex-wrap justify-center">
+                {cseFaculty.map((card) => (
+                    <FacultyCards
+
+                        name={card.name}
+                       
+                        link={card.link}
+                    />
+                ))}
+            </div>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Expertise in social sciences</h1>
+
+            <div className="flex flex-wrap justify-center">
+                {sshFaculty.map((card) => (
+                    <FacultyCards
+
+                        name={card.name}
+                       
+                        link={card.link}
+                    />
+                ))}
+            </div>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Expertise in computational biology</h1>
+
+            <div className="flex flex-wrap justify-center mb-12">
+                {bioFaculty.map((card) => (
+                    <FacultyCards
+
+                        name={card.name}
+                       
+                        link={card.link}
+                    />
+                ))}
+            </div>
+            {/* <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Teaching Faculty</h1> */}
+            {/* <div className="flex flex-wrap justify-center">
 
                 <DepartmentCards
                     title="Computational Biology"
@@ -145,7 +181,7 @@ export default function Faculty() {
                     title="Computer Science"
                     facultyMembers={cseFaculty}
                 />
-            </div>
+            </div> */}
 
         </div>
     )
