@@ -1,9 +1,7 @@
 import React from 'react'
 import iiitd_buiilding from "../assets/iiitd_building.jpg"
-import pic1 from "../assets/pic1.png"
-import pic2 from "../assets/pic2.png"
-import pic3 from "../assets/pic3.png"
-import pic4 from "../assets/pic4.png"
+import artpark_logo from "../assets/artpark_logo.png"
+import jpal_logo from "../assets/jpal_logo.png"
 import pic5 from "../assets/circle.png"
 export default function Home() {
   return (
@@ -11,12 +9,19 @@ export default function Home() {
       <div className="relative flex flex-col items-center justify-center w-screen">
         <div className="absolute z-10 bg-gray-900 bg-opacity-80 justify-center">
           <h1 className="mx-10 text-2xl font-bold text-white text-center m-10">Post-Graduate Diploma in Data Science in Health and Climate Change for Social Impact</h1>
-          <h1 className="mx-10 text-2xl font-bold text-white text-center m-5">Hands-on experience | Internship opportunities | 36 weeks Hybrid Program</h1>
+          <h1 className="mx-10 text-2xl font-bold text-white text-center m-5">Hands-on experience | Internship Opportunities | 36 weeks Hybrid Program</h1>
         </div>
         <img src={iiitd_buiilding} alt="" className="w-screen h-[30rem] object-cover" />
       </div>
       <div className="keyFeatures">
-        <h1 className="text-3xl mt-4 font-bold text-gray-900 text-center">Program Features</h1>
+        <h1 className="bloack md:hidden text-3xl mt-4 font-bold text-gray-900 text-center">Program Features</h1>
+        <div className="flex flex-wrap justify-center mt-4">
+          <h1 className="hidden md:block text-3xl mt-4 font-bold text-gray-900 text-center">Program Features</h1>
+
+          <img className="mt-2 ml-2 object-fill" style={{ width: "15%", height: "" }} src={jpal_logo} alt="j-pal" />
+          <img className="mt-2 ml-2" style={{ width: "15%" }} src={artpark_logo} alt="artpark" />
+
+        </div>
         <div className="flex justify-center">
           <div className="m-10 w-flex justify-center inline-block">
             <p className='m-5 text-gray-700' style={{ fontSize: '1.5rem', fontFamily: "sans-serif" }}>Learn to make data-driven decisions through one of the best data science programs that promises to deliver a  high-end learning experience leveraging the acaedemic excellence of IIIT-Delhi</p>

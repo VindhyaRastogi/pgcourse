@@ -13,7 +13,7 @@ const Organisations = () => {
                       className="w-full h-auto"
                   />
               </div>
-              <div className="my-4 mr-4 w-[14rem]">
+              <div style={{width:'12vw'}} className="mt-4 mr-4">
                   <img
                       src= {dataorg}
                       alt="Right Image"

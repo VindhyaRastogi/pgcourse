@@ -10,6 +10,7 @@ import Faculty from './components/Faculty.js';
 import About from './components/About.js';
 import Brochure from './components/Brochure.js';
 import Admission from './components/Admission.js';
+import Registration from './components/Registration.js';
 import ContactUs from './components/ContactUs.js';
 import Fees from './components/Fees.js';
 
@@ -43,6 +44,11 @@ const App = () => {
           <Admission />
 
         </section>;
+      case 'registration':
+        return <section id="registration" className="w-screen h-screen bg-gray-300">
+          <Registration />
+
+        </section>;
       case 'fees':
         return <section id="fees" className="w-screen h-screen bg-gray-300">
        
@@ -61,7 +67,7 @@ const App = () => {
       <Navbar togglePage={setCurrentPage} />
       {renderPage()}
       <ApplyNow />
-      <Brochure />
+      {/* <Brochure /> */}
       <ContactUs />
     </div>
   );

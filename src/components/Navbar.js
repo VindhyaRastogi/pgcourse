@@ -21,6 +21,9 @@ const Navbar = (props) => {
     const changeToFees = () => {
         props.togglePage("fees")
     }
+    const changeToRegistration = () => {
+        props.togglePage("registration")
+    }
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -141,13 +144,13 @@ const Navbar = (props) => {
                         </li>
                         <li className="cursor-pointer text-xl hover:text-gray-900" >
                             <Link
-                                to="admission"
+                                to="registration"
                                 smooth={true}
                                 duration={500}
                                 className="cursor-pointer"
-                                onClick={changeToAdmission}
+                                onClick={changeToRegistration}
                             >
-                                Admission
+                                Registration
                             </Link>
                         </li>
                         <li className="cursor-pointer text-xl hover:text-gray-900" >
@@ -229,13 +232,13 @@ const Navbar = (props) => {
                     </li>
                     <li className="cursor-pointer text-xl hover:text-gray-900" >
                         <Link
-                            to="admission"
+                            to="registration"
                             smooth={true}
                             duration={500}
                             className="cursor-pointer"
-                            onClick={changeToAdmission}
+                            onClick={changeToRegistration}
                         >
-                            Admission
+                            Registration
                         </Link>
                     </li>
                     <li className="cursor-pointer text-xl hover:text-gray-900" >

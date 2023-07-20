@@ -1,6 +1,7 @@
 import React from 'react'
 import artpark from "../assets/artpark_logo.png"
 import jpal from "../assets/jpal_logo.png"
+import Pdf from './flyer_fellowship.pdf'
 export default function InternshipPartners() {
     return (
         <div>
@@ -34,6 +35,18 @@ export default function InternshipPartners() {
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                             </svg>
                         </a>
+                        <p className="text-center">
+                            Click{' '}
+                            <a
+                                href={Pdf}
+                                className="text-blue-500 font-bold"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                here
+                            </a>{' '}
+                            to know more about Fellowships
+                        </p>
                     </div>
                 </div>
             </div>
