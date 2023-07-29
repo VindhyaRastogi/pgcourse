@@ -164,7 +164,7 @@ export default function Faculty() {
                     />
                 ))}
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Expertise in Computer Sciences</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Computer Science Faculty</h1>
 
             <div className="flex flex-wrap justify-center">
                 {cseFaculty.map((card) => (
@@ -177,7 +177,7 @@ export default function Faculty() {
                     />
                 ))}
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Expertise in Social Sciences</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Social Science Faculty</h1>
 
             <div className="flex flex-wrap justify-center">
                 {sshFaculty.map((card) => (
@@ -189,7 +189,7 @@ export default function Faculty() {
                     />
                 ))}
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Expertise in Computational Biology</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Computational Biology Faculty</h1>
 
             <div className="flex flex-wrap justify-center mb-12">
                 {bioFaculty.map((card) => (

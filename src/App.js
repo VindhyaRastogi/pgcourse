@@ -45,7 +45,7 @@ const App = () => {
 
         </section>;
       case 'registration':
-        return <section id="registration" className="w-screen h-screen bg-gray-300">
+        return <section id="registration" className="w-screen h-fit bg-gray-300">
           <Registration />
 
         </section>;
@@ -67,7 +67,7 @@ const App = () => {
       <Navbar togglePage={setCurrentPage} />
       {renderPage()}
       <ApplyNow />
-      {/* <Brochure /> */}
+      <Brochure />
       <ContactUs />
     </div>
   );

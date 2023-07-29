@@ -150,7 +150,7 @@ const Navbar = (props) => {
                                 className="cursor-pointer"
                                 onClick={changeToRegistration}
                             >
-                                Registration
+                                Apply
                             </Link>
                         </li>
                         <li className="cursor-pointer text-xl hover:text-gray-900" >
@@ -238,7 +238,7 @@ const Navbar = (props) => {
                             className="cursor-pointer"
                             onClick={changeToRegistration}
                         >
-                            Registration
+                            Apply
                         </Link>
                     </li>
                     <li className="cursor-pointer text-xl hover:text-gray-900" >

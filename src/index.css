@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media (min-width: 550px) {
+  .homeHeadingBanner{
+    margin-left: 5rem; /* 80px */
+    margin-right: 5rem; /* 80px */
+  }
+  .homeHeadingText1{
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+  .homeHeadingText2{
+    	font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+  }
+  .homeHeadingText3{
+    	font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+  }
+  .homeImages{
+    	width: 15rem;
+  }
+}
