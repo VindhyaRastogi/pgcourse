@@ -7,6 +7,7 @@ import dataorg from "../assets/dataorg_logo.png"
 import iiitd from "../assets/iiitd_logo.png"
 import pic5 from "../assets/circle.png"
 import Banner from './Banner'
+import ScrollingBanner from './ScrollingBanner'
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen">
@@ -36,7 +37,7 @@ export default function Home() {
         <h1 className="text-3xl mt-4 font-bold text-gray-900 text-center">Program Features</h1>
         <div className="mx-10 flex justify-center">
           <div className="m-5 w-flex justify-center inline-block">
-            <p className='mb-5 mx-5 text-gray-700' style={{ fontSize: '1.5rem', fontFamily: "sans-serif" }}>Learn to make data-driven decisions through one of the best data science programs that promises to deliver a  high-end learning experience leveraging the acaedemic excellence of IIIT-Delhi</p>
+            <p className='mb-5 mx-5 text-gray-700' style={{ fontSize: '1.5rem', fontFamily: "sans-serif" }}>Learn to make data-driven decisions through one of the best data science programs that promises to deliver a high-end learning experience leveraging the academic excellence of IIIT-Delhi</p>
 
             <ul className="list-disc space-y-4 mx-4 list-disc">
 

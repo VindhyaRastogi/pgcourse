@@ -2,7 +2,7 @@ import React from 'react'
 import FacultyCards from './FacultyCards'
 import DepartmentCards from './DepartmentCards'
 import pic1 from '../assets/pic1.png';
-import tghosh from '../assets/tghosh.PNG';
+import tghosh from '../assets/tghosh.jpg';
 import amurugan from '../assets/amurugan.PNG';
 import dsengupta from '../assets/dsengupta.PNG';
 import gahuja from '../assets/gahuja.PNG';
