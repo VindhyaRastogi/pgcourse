@@ -142,7 +142,7 @@ const Navbar = (props) => {
                                 Internship/Fellowship Partners
                             </Link>
                         </li>
-                        <li className="cursor-pointer text-xl hover:text-gray-900" >
+                        <li className="font-bold text-red-600 cursor-pointer text-xl hover:text-gray-900" >
                             <Link
                                 to="registration"
                                 smooth={true}
@@ -230,7 +230,7 @@ const Navbar = (props) => {
                             Internship/Fellowship Partners
                         </Link>
                     </li>
-                    <li className="cursor-pointer text-xl hover:text-gray-900" >
+                    <li className="font-bold cursor-pointer text-red-600 text-xl hover:text-gray-900" >
                         <Link
                             to="registration"
                             smooth={true}

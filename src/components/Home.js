@@ -6,6 +6,7 @@ import jpal_logo from "../assets/jpal_logo.png"
 import dataorg from "../assets/dataorg_logo.png"
 import iiitd from "../assets/iiitd_logo.png"
 import pic5 from "../assets/circle.png"
+import Banner from './Banner'
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen">
@@ -31,6 +32,7 @@ export default function Home() {
             <img className="mt-2 mb-4" src={artpark_logo_t} alt="artpark" />
           </div>
         </div>
+      <Banner/>
         <h1 className="text-3xl mt-4 font-bold text-gray-900 text-center">Program Features</h1>
         <div className="mx-10 flex justify-center">
           <div className="m-5 w-flex justify-center inline-block">
