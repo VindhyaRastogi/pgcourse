@@ -33,7 +33,7 @@ export default function Home() {
             <img className="mt-2 mb-4" src={artpark_logo_t} alt="artpark" />
           </div>
         </div>
-      <Banner/>
+        <Banner />
         <h1 className="text-3xl mt-4 font-bold text-gray-900 text-center">Program Features</h1>
         <div className="mx-10 flex justify-center">
           <div className="m-5 w-flex justify-center inline-block">
@@ -62,8 +62,16 @@ export default function Home() {
           </div>
         </div>
         <span className="flex justify-center text-xl mb-4">
-          <h2 className="font-semibold mb-12 mx-8"> Highly subsidised fee of just <b style={{ fontSize: "2rem" }} className="text-xl text-blue-500">Rs. 25,000/-</b> for the first two years</h2>
+          <h2 className="font-semibold mx-8"> Highly subsidised fee of just <b style={{ fontSize: "2rem" }} className="text-xl text-blue-500">Rs. 25,000/-</b> for the first two years</h2>
         </span>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSedalSjSZLpjdEKcWlIyf1Za4LTDqklxjy_lT_iPY-wmWNx4w/viewform" target="_blank"><h4 className='mt-4 text-center font-semibold text-xl'>Click here to apply</h4></a>
+        <div className="flex mb-16 justify-center flex-col justify-center items-center">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSedalSjSZLpjdEKcWlIyf1Za4LTDqklxjy_lT_iPY-wmWNx4w/viewform" target="_blank">
+            <button className="mt-[1rem] bg-teal-500 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-full text-2xl shadow-lg">
+              Apply Now
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   )

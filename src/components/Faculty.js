@@ -16,6 +16,8 @@ import tsethi from '../assets/tsethi.PNG';
 import vgoyal from '../assets/vgoyal.PNG';
 import vkumar from '../assets/vkumar.PNG';
 import mkumar from '../assets/mkumar.PNG';
+import aray from '../assets/aray.PNG';
+import gpsraghava from '../assets/gpsraghava.PNG';
 
 export default function Faculty() {
 
@@ -89,6 +91,12 @@ export default function Faculty() {
             name: 'Dr. Tarini Shankar Ghosh',
             link: "https://www.iiitd.ac.in/tarini",
             imageOfProf: tghosh
+        },
+        {
+
+            name: 'Dr. Arjun Ray',
+            link: "https://www.iiitd.ac.in/arjun",
+            imageOfProf: aray
         },
         {
 
@@ -191,6 +199,13 @@ export default function Faculty() {
             </div>
             <h1 className="text-3xl font-bold text-gray-900 text-center m-10">Computational Biology Faculty</h1>
 
+            <div className="flex flex-wrap justify-center">
+                <FacultyCards
+                    name="Dr. G. P. S. Raghava"
+                    link="https://www.iiitd.ac.in/raghava"
+                    imageOfProf={gpsraghava}
+                />
+            </div>
             <div className="flex flex-wrap justify-center mb-12">
                 {bioFaculty.map((card) => (
                     <FacultyCards
