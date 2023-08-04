@@ -106,7 +106,8 @@ export default function
     return (
         <div>
             
-            <h1 className="text-3xl font-bold text-gray-900 text-center my-5 mt-10">Detailed Course Structure</h1>
+            <h1 className="text-3xl font-bold text-gray-900 text-center my-5 mt-10">Tentative Course Structure *</h1>
+            <h1 className="text-xl text-gray-900 text-center mx-8">* Subject to the final approval by the Senate</h1>
 
 
             <div className="keyFeatures">
