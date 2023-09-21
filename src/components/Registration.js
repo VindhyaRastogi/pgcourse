@@ -24,7 +24,7 @@ export default function Registration() {
           Apply Now
         </button>
       </a>
-      <p className="font-semibold text-2xl text-gray-900 italic my-4 mx-16">You may also mail your application along with the required documents to us at: dshcs@iiitd.ac.in</p>
+      {/* <p className="font-semibold text-2xl text-gray-900 italic my-4 mx-16">You may also mail your application along with the required documents to us at: dshcs@iiitd.ac.in</p> */}
       <p className="font-semibold text-base text-gray-900 mt-4 mb-32 mx-20">By registering with us, you agree to receive communications via Email/WhatsApp from IIIT Delhi.  IIIT Delhi will not share this information with any third party. We will use your personal information <u>ONLY </u>to send you information and updates about this course.</p>
     </div>
   )
