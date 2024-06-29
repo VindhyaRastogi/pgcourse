@@ -14,7 +14,7 @@ export default function Home() {
       <div className="relative flex flex-col items-center justify-center w-screen">
         <div className="min-[550px]:mr-20 min-[550px]:ml-20 absolute z-10 bg-gray-900 bg-opacity-80 justify-center">
           <h1 className="min-[550px]:text-4xl min-[550px]:mx-16 mx-10 text-2xl font-bold text-white text-center m-10">Post-Graduate Diploma in Data Science in Health and Climate Change for Social Impact</h1>
-          <h1 className="min-[550px]:text-3xl min-[550px]:mx-16 mx-10 text-2xl font-bold text-white text-center m-5">Hands-on experience | Internship Opportunities | 37 weeks | 294 Lecture Hours | 210 Lectures | Weekend Saturday Classes | Online and Offline class sessions to be held simultaneously </h1>
+          <h1 className="min-[550px]:text-3xl min-[550px]:mx-16 mx-10 text-2xl font-bold text-white text-center m-5">Hands-on experience | Internship Opportunities | 37 weeks | 294 Lecture Hours | 210 Lectures | Weekend Sunday Classes | Online and Offline class sessions to be held simultaneously </h1>
         </div>
         <img src={iiitd_buiilding} alt="" className="w-screen h-[30rem] object-cover" />
       </div>
