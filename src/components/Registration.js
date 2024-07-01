@@ -25,7 +25,7 @@ export default function Registration() {
         </button>
       </a>
       {/* <p className="font-semibold text-2xl text-gray-900 italic my-4 mx-16">You may also mail your application along with the required documents to us at: dshcs@iiitd.ac.in</p> */}
-      <div className="flex mt-12 justify-center mb-48">
+      <div className="flex mt-12 justify-center mb-12">
         <table className="w-[1z] divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
