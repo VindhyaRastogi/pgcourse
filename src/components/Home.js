@@ -72,39 +72,6 @@ export default function Home() {
             </button>
           </a>
         </div>
-        <div className="flex justify-center mb-48">
-          <table className="w-[80rem] divide-y divide-gray-200">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Important Dates
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">Application open</td>
-                <td className="px-6 py-4 whitespace-nowrap">5th July 2024</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">Application close</td>
-                <td className="px-6 py-4 whitespace-nowrap">31st July 2024</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">Fee submission last date (online)</td>
-                <td className="px-6 py-4 whitespace-nowrap">21st August 2024</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap">Classes begin</td>
-                <td className="px-6 py-4 whitespace-nowrap">1st September 2024</td>
-              </tr>
-              {/* Add more rows as needed */}
-            </tbody>
-          </table>
-        </div>
       </div>
     </div>
   )

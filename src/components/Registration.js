@@ -25,25 +25,25 @@ export default function Registration() {
         </button>
       </a>
       {/* <p className="font-semibold text-2xl text-gray-900 italic my-4 mx-16">You may also mail your application along with the required documents to us at: dshcs@iiitd.ac.in</p> */}
-      <div className="flex justify-center mb-12 mt-12">
-        <table className="w-[80rem] divide-y divide-gray-200">
+      <div className="flex mt-12 justify-center mb-48">
+        <table className="w-[1z] divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-
+                
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Important Dates
+                Important dates
               </th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Application open</td>
+              <td className="px-6 py-4 whitespace-nowrap">Applications open</td>
               <td className="px-6 py-4 whitespace-nowrap">5th July 2024</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Application close</td>
+              <td className="px-6 py-4 whitespace-nowrap">Applications close</td>
               <td className="px-6 py-4 whitespace-nowrap">31st July 2024</td>
             </tr>
             <tr>
