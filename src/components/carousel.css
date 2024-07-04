@@ -1,0 +1,19 @@
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%; /* Ensure three cards are visible at a time */
+  padding: 0 8px; /* Adjust padding as needed */
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 100%; /* Full width on smaller screens */
+  }
+}

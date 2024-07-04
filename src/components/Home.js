@@ -8,6 +8,7 @@ import iiitd from "../assets/iiitd_logo.png"
 import pic5 from "../assets/circle.png"
 import Banner from './Banner'
 import ScrollingBanner from './ScrollingBanner'
+import Carousel from './Carousel'
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen">
@@ -64,14 +65,15 @@ export default function Home() {
         <span className="flex justify-center text-xl mb-4">
           <h2 className="font-semibold mx-8"> Highly subsidised fee of just <b style={{ fontSize: "2rem" }} className="text-xl text-blue-500">Rs. 25,000/-</b> for the entire year long course</h2>
         </span>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSedalSjSZLpjdEKcWlIyf1Za4LTDqklxjy_lT_iPY-wmWNx4w/viewform" target="_blank"><h4 className='mt-4 text-center font-semibold text-xl'>Click here to apply</h4></a>
+        <a href="https://forms.gle/5SMmvyzLvcDebGPL8" target="_blank"><h4 className='mt-4 text-center font-semibold text-xl'>Click here to apply</h4></a>
         <div className="flex mb-16 justify-center flex-col justify-center items-center">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSedalSjSZLpjdEKcWlIyf1Za4LTDqklxjy_lT_iPY-wmWNx4w/viewform" target="_blank">
+          <a href="https://forms.gle/5SMmvyzLvcDebGPL8" target="_blank">
             <button className="mt-[1rem] bg-teal-500 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-full text-2xl shadow-lg">
               Apply Now
             </button>
           </a>
         </div>
+        {/* <Carousel></Carousel> */}
       </div>
     </div>
   )

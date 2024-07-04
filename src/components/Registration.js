@@ -19,7 +19,7 @@ export default function Registration() {
 
       </div>
 
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSedalSjSZLpjdEKcWlIyf1Za4LTDqklxjy_lT_iPY-wmWNx4w/viewform" target="_blank">
+      <a href="https://forms.gle/5SMmvyzLvcDebGPL8" target="_blank">
         <button className="mt-[2rem] bg-teal-500 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-full text-2xl shadow-lg">
           Apply Now
         </button>
