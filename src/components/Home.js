@@ -9,6 +9,7 @@ import pic5 from "../assets/circle.png"
 import Banner from './Banner'
 import ScrollingBanner from './ScrollingBanner'
 import Carousel from './Carousel'
+import Review from './Review'
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen">
@@ -73,6 +74,7 @@ export default function Home() {
             </button>
           </a>
         </div>
+        <Review></Review>
         {/* <Carousel></Carousel> */}
       </div>
     </div>

@@ -17,3 +17,13 @@
     flex: 0 0 100%; /* Full width on smaller screens */
   }
 }
+
+#div1{
+  opacity: 1;
+  transition: opacity 2s ease-in;
+}
+
+#div2{
+  opacity: 1;
+  transition: opacity 2s ease-in;
+}
