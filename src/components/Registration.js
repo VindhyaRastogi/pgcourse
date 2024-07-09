@@ -8,7 +8,7 @@ export default function Registration() {
       <p className="font-semibold text-2xl text-gray-900 italic my-8 mx-16">
         If interested, please fill up the application form by clicking on the link below.
       </p>
-      <div className='mx-16'>
+      <div className='mx-16 text-lg'>
         <p className="text-xl font-semibold text-gray-900"> You need to have your a) resume and b) A Statement of Purpose (SoP) ready to upload as part of the application.</p>
         <p className="text-base font-semibold mt-2 mb-2"><u>Instructions for Preparing your Statement of Purpose (SoP)</u></p>
         <p>Please upload a Statement of Purpose (SoP) (up to 1000 words). The statement should be structured around answering the following questions:</p>
@@ -32,27 +32,27 @@ export default function Registration() {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-xl text-left text-sm font-bold font-medium text-gray-500 uppercase tracking-wider">
                 Important dates
               </th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Applications open</td>
-              <td className="px-6 py-4 whitespace-nowrap">5th July 2024</td>
+              <td className="px-6 py-4 text-xl whitespace-nowrap">Applications open</td>
+              <td className="px-6 py-4 text-xl whitespace-nowrap">5th July 2024</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Applications close</td>
-              <td className="px-6 py-4 whitespace-nowrap">31st July 2024</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">Applications close</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">31st July 2024</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Fee submission last date (online)</td>
-              <td className="px-6 py-4 whitespace-nowrap">21st August 2024</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">Fee submission last date (online)</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">21st August 2024</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Classes begin</td>
-              <td className="px-6 py-4 whitespace-nowrap">1st September 2024</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">Classes begin</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">1st September 2024</td>
             </tr>
             {/* Add more rows as needed */}
           </tbody>

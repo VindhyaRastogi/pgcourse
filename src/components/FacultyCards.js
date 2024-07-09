@@ -4,7 +4,7 @@ const FacultyCards = ({ name, department, specialization, link, imageOfProf }) =
     return (
         <div className="bg-white items-center shadow-md rounded-lg p-6 mx-10 my-5 flex flex-col text-center justify-center w-80 hover:shadow-xl">
             <a href={link} target="_blank">
-                <img className="mb-2 center h-24" src={imageOfProf} alt="" />
+                <img className="mb-2 center h-32" src={imageOfProf} alt="" />
             </a>
             <a href={link} target="_blank">
 
