@@ -44,15 +44,15 @@ export default function Registration() {
             </tr>
             <tr>
               <td className="px-6 text-xl py-4 whitespace-nowrap">Applications close</td>
-              <td className="px-6 text-xl py-4 whitespace-nowrap">31st July 2024</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">10th August 2024</td>
             </tr>
             <tr>
               <td className="px-6 text-xl py-4 whitespace-nowrap">Fee submission last date (online)</td>
-              <td className="px-6 text-xl py-4 whitespace-nowrap">21st August 2024</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">25th August 2024</td>
             </tr>
             <tr>
               <td className="px-6 text-xl py-4 whitespace-nowrap">Classes begin</td>
-              <td className="px-6 text-xl py-4 whitespace-nowrap">1st September 2024</td>
+              <td className="px-6 text-xl py-4 whitespace-nowrap">September 2024</td>
             </tr>
             {/* Add more rows as needed */}
           </tbody>
