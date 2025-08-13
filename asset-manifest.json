@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pgcourse/static/css/main.d76c8e87.css",
-    "main.js": "/pgcourse/static/js/main.85387f96.js",
+    "main.css": "/pgcourse/static/css/main.cc02cd16.css",
+    "main.js": "/pgcourse/static/js/main.b1e5bb9d.js",
     "static/js/787.41d3c25a.chunk.js": "/pgcourse/static/js/787.41d3c25a.chunk.js",
     "static/media/updated_brochure.pdf": "/pgcourse/static/media/updated_brochure.538fcf7d441394f5df68.pdf",
     "static/media/VKumar.jpg": "/pgcourse/static/media/VKumar.95a88a6adeab05996fd5.jpg",
@@ -43,12 +43,12 @@
     "static/media/dataorg_logo.png": "/pgcourse/static/media/dataorg_logo.2f0073191ef506c2e3da.png",
     "static/media/Md. Jabed Hussain.jpg": "/pgcourse/static/media/Md. Jabed Hussain.800cf9f16589f57e9fbb.jpg",
     "index.html": "/pgcourse/index.html",
-    "main.d76c8e87.css.map": "/pgcourse/static/css/main.d76c8e87.css.map",
-    "main.85387f96.js.map": "/pgcourse/static/js/main.85387f96.js.map",
+    "main.cc02cd16.css.map": "/pgcourse/static/css/main.cc02cd16.css.map",
+    "main.b1e5bb9d.js.map": "/pgcourse/static/js/main.b1e5bb9d.js.map",
     "787.41d3c25a.chunk.js.map": "/pgcourse/static/js/787.41d3c25a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d76c8e87.css",
-    "static/js/main.85387f96.js"
+    "static/css/main.cc02cd16.css",
+    "static/js/main.b1e5bb9d.js"
   ]
 }
