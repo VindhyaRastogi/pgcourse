@@ -2,14 +2,14 @@ import Navbar from "./components/Navbar.js";
 import Organisations from "./components/Organisations.js";
 import "./App.css";
 import { useState } from "react";
-import React from "react";
+
 import InternshipPartners from "./components/InternshipPartners.js";
 import Home from "./components/Home.js";
-import ApplyNow from "./components/ApplyNow.js";
+// import ApplyNow from "./components/ApplyNow.js";
 import Faculty from "./components/Faculty.js";
 import About from "./components/About.js";
 import Brochure from "./components/Brochure.js";
-import Regulation from "./components/Regulation.js";
+
 import Admission from "./components/Admission.js";
 import Registration from "./components/Registration.js";
 import ContactUs from "./components/ContactUs.js";
@@ -84,7 +84,7 @@ const App = () => {
       {renderPage()}
       {/* <ApplyNow /> */}
       <Brochure />
-      <Regulation />
+
       <ContactUs />
     </div>
   );
